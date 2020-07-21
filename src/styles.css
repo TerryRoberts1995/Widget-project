@@ -1,0 +1,13 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btns {
+    text-align: center;
+    margin: 10px;
+}
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}

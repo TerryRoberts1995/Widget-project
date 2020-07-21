@@ -1,26 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./styles.css";
 
-function App() {
+import Counter from "./components/counter";
+import ToggleMe from "./components/toggleMe";
+import MoveText from "./components/moveText";
+import Rgb from "./components/rgb";
+import HowdyToggle from "./components/howdyToggle";
+import ColorChange from "./components/colorButton";
+import Pixel from "./components/pixelSize";
+import Time from "./components/time";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React Magic</h1>
+
+      <Counter />
+
+      <br />
+
+      <ToggleMe />
+
+      <br />
+
+      <MoveText />
+
+      <br />
+
+      <Rgb />
+
+      <br />
+
+      <HowdyToggle />
+
+      <br />
+
+      <ColorChange />
+
+      <br />
+
+      <Pixel />
+
+      <br />
+
+      <Time />
     </div>
   );
 }
-
-export default App;
